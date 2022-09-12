@@ -38,7 +38,7 @@ whitespaceBreak: false
 
 console.log(color('[ STATUS ]', 'cyan'), color('Bot Online', 'yellow'))
 console.log(color('[ INFO ]', 'cyan'), color(`Informasi Owner`, 'yellow'))
-console.log(color('Wangsap :', 'cyan'), color(` 6283847178421`, 'yellow'))
+console.log(color('Wangsap :', 'cyan'), color(` 6285697175057`, 'yellow'))
 
 sock.ws.on('CB:Blocklist', json => {
 		if (blocked.length > 2) return
