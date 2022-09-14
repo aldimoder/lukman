@@ -94,12 +94,13 @@ sock.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                     sock.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}
                     
-*_JANGAN LUPA INTRO_*
+*_JANGAN LUPA INTRO DEK_*
 ️Nama :
 Umur :
 Hobby :
 Gender :
-Asal Kota :` })
+Asal Kota :
+BY ALDI-SADBOY` })
                 } else if (anu.action == 'remove') {
                     sock.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
                 }
